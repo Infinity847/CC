@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>CyberCamera</title>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+        <link href = "style.css" rel = "stylesheet">
+    </head>
+    <body>
+    <div id = "header">
+        <h1 id = "title">Loading Cocossd...</h1>
+    </div>
+        <br>
+<span>
+<button id = "stats">Status : Loading Object Sensor...</button>
+<button id = "confidence">Confidence : </button>
+</span>
+<div id = "settings">
+<input type = "checkbox" id = "Checkbox" onclick = "inputdetect()">
+<h3>Take picture of person</h3>
+</div>
+<br><br>
+        <p>Use this app to make sure no robbers come in your house. Officially made by HRSCRIPT.</p><br>
+        <input placeholder = "Write something as a alert." id = "message">
+        <button id = "startbtn" onclick = "btnstart()">Start</button>
+        <script src = "main.js"></script>
+    </body>
+</html>

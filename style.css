@@ -1,0 +1,32 @@
+h1,h2,h3,h4,h5,h6,p {
+    color:white; font-family:arial;
+}
+body{
+    background-color:lightgrey; text-align:center;
+}
+canvas {
+    border-radius:15px;
+    border:2px solid gray;
+}
+#message {
+    width:500px;
+}
+#header {
+    border-radius:15px;
+    background-color:lightgrey;
+    border:2px solid gray;
+    box-shadow:5px 5px 38px gray;
+}
+button {
+    color:white;
+    border:2px solid gray;
+    background-color:lightgrey;
+    border-radius:2px;
+}
+#settings {
+    border-radius:15px;
+    background-color:lightgrey;
+    border:2px solid gray;
+    box-shadow:5px 5px 38px gray;
+    float:left; 
+}
